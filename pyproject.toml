@@ -1,0 +1,15 @@
+[project]
+name = "my-rag-sys"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+
+[project.scripts]
+my_rag_sys = "my_rag_sys.main:main"
+
+
+[tool.uv.workspace]
+members = ["libs/chunk"]
