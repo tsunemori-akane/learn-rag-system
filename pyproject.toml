@@ -4,12 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.4.0",
+]
 
 
 [project.scripts]
 my_rag_sys = "my_rag_sys.main:main"
-
 
 [tool.uv.workspace]
 members = ["libs/chunk"]

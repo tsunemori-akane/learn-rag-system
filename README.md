@@ -1,1 +1,2 @@
-Before run script, you should `uv pip install -e .`
+- Before run script, you should `uv pip install -e .`
+- 
